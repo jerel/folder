@@ -1,0 +1,21 @@
+.item {
+    height: inherit !important;
+}
+.item .center {
+ width: 100%;
+}
+.item .center .folders-center .folder {
+    display: none;
+}
+#folders-sidebar {
+    display: none;
+}
+#file-sidebar {
+    display: none;
+}
+#file-toolbar input#file-search {
+    display: none;
+}
+#file-toolbar #file-buttons {
+    margin-right: 0;
+}
