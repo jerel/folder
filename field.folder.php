@@ -78,9 +78,11 @@ class Field_folder
 
         ci()->template
             ->append_css('files_module::jquery.fileupload-ui.css')
+            ->append_css('jquery/jquery.tagsinput.css')
             ->append_css('files_module::files.css')
             ->append_js('files_module::jquery.fileupload.js')
             ->append_js('files_module::jquery.fileupload-ui.js')
+            ->append_js('jquery/jquery.tagsinput.js')
             ->append_js('files_module::functions.js');
 
         ci()->type->add_css('folder', 'files_override.css');
