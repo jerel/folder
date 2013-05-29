@@ -1,3 +1,6 @@
+section#content ul li {
+    position: static;
+}
 .item {
     height: inherit !important;
 }
